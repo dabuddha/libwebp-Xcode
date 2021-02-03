@@ -6,7 +6,7 @@
 //  Copyright © 2020 olecx. All rights reserved.
 //
 
-#import <YYImage/YYImage.h>
+#import "YYImage.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

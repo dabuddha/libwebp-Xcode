@@ -46,6 +46,15 @@
 		267DBD8325CA96170081975C /* YYWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5F25CA96170081975C /* YYWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD8725CA96290081975C /* libwebp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804BDE04213568F500BA3395 /* libwebp.framework */; platformFilter = ios; };
 		267DBD8825CA96290081975C /* libwebp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 804BDE04213568F500BA3395 /* libwebp.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		267DBDA225CA9C3D0081975C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDA125CA9C3D0081975C /* Accelerate.framework */; };
+		267DBDA425CA9C430081975C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDA325CA9C430081975C /* AssetsLibrary.framework */; };
+		267DBDA825CA9C490081975C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDA725CA9C490081975C /* CoreFoundation.framework */; };
+		267DBDAA25CA9C4E0081975C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDA925CA9C4E0081975C /* ImageIO.framework */; };
+		267DBDAC25CA9C5A0081975C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDAB25CA9C560081975C /* libsqlite3.tbd */; };
+		267DBDB025CA9C630081975C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDAF25CA9C600081975C /* libz.tbd */; };
+		267DBDB425CA9C690081975C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDB325CA9C690081975C /* MobileCoreServices.framework */; };
+		267DBDB625CA9C6F0081975C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDB525CA9C6F0081975C /* QuartzCore.framework */; };
+		267DBDB825CA9C740081975C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDB725CA9C740081975C /* UIKit.framework */; };
 		3258CB9E228BEAFE00C85E93 /* cost_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3258CB9D228BEAFE00C85E93 /* cost_neon.c */; };
 		3258CBA0228BEB3800C85E93 /* quant.h in Headers */ = {isa = PBXBuildFile; fileRef = 3258CB9F228BEB3800C85E93 /* quant.h */; };
 		804BDE09213568F500BA3395 /* libwebp.h in Headers */ = {isa = PBXBuildFile; fileRef = 804BDE07213568F500BA3395 /* libwebp.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -280,6 +289,15 @@
 		267DBD5D25CA96170081975C /* YYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCache.m; sourceTree = "<group>"; };
 		267DBD5E25CA96170081975C /* YYWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageManager.m; sourceTree = "<group>"; };
 		267DBD5F25CA96170081975C /* YYWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageOperation.h; sourceTree = "<group>"; };
+		267DBDA125CA9C3D0081975C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		267DBDA325CA9C430081975C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/iOSSupport/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		267DBDA725CA9C490081975C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		267DBDA925CA9C4E0081975C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		267DBDAB25CA9C560081975C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		267DBDAF25CA9C600081975C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		267DBDB325CA9C690081975C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/iOSSupport/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		267DBDB525CA9C6F0081975C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		267DBDB725CA9C740081975C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3258CB9D228BEAFE00C85E93 /* cost_neon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cost_neon.c; sourceTree = "<group>"; };
 		3258CB9F228BEB3800C85E93 /* quant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quant.h; sourceTree = "<group>"; };
 		804BDE04213568F500BA3395 /* libwebp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libwebp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -451,7 +469,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267DBDAC25CA9C5A0081975C /* libsqlite3.tbd in Frameworks */,
+				267DBDA825CA9C490081975C /* CoreFoundation.framework in Frameworks */,
+				267DBDB025CA9C630081975C /* libz.tbd in Frameworks */,
+				267DBDA425CA9C430081975C /* AssetsLibrary.framework in Frameworks */,
 				267DBD8725CA96290081975C /* libwebp.framework in Frameworks */,
+				267DBDB425CA9C690081975C /* MobileCoreServices.framework in Frameworks */,
+				267DBDA225CA9C3D0081975C /* Accelerate.framework in Frameworks */,
+				267DBDAA25CA9C4E0081975C /* ImageIO.framework in Frameworks */,
+				267DBDB625CA9C6F0081975C /* QuartzCore.framework in Frameworks */,
+				267DBDB825CA9C740081975C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -814,6 +841,15 @@
 		80C1D53321357117007974F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				267DBDB725CA9C740081975C /* UIKit.framework */,
+				267DBDB525CA9C6F0081975C /* QuartzCore.framework */,
+				267DBDB325CA9C690081975C /* MobileCoreServices.framework */,
+				267DBDAF25CA9C600081975C /* libz.tbd */,
+				267DBDAB25CA9C560081975C /* libsqlite3.tbd */,
+				267DBDA925CA9C4E0081975C /* ImageIO.framework */,
+				267DBDA725CA9C490081975C /* CoreFoundation.framework */,
+				267DBDA325CA9C430081975C /* AssetsLibrary.framework */,
+				267DBDA125CA9C3D0081975C /* Accelerate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1195,6 +1231,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1213,6 +1253,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1227,6 +1268,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
 				INFOPLIST_FILE = YYWebImage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
@@ -1240,6 +1285,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

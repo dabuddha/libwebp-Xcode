@@ -55,6 +55,8 @@
 		267DBDB425CA9C690081975C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDB325CA9C690081975C /* MobileCoreServices.framework */; };
 		267DBDB625CA9C6F0081975C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDB525CA9C6F0081975C /* QuartzCore.framework */; };
 		267DBDB825CA9C740081975C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDB725CA9C740081975C /* UIKit.framework */; };
+		267DBDE025CAB71E0081975C /* YYAnimatedImageView+OLELayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBDDE25CAB71E0081975C /* YYAnimatedImageView+OLELayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBDE125CAB71E0081975C /* YYAnimatedImageView+OLELayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBDDF25CAB71E0081975C /* YYAnimatedImageView+OLELayer.m */; };
 		3258CB9E228BEAFE00C85E93 /* cost_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3258CB9D228BEAFE00C85E93 /* cost_neon.c */; };
 		3258CBA0228BEB3800C85E93 /* quant.h in Headers */ = {isa = PBXBuildFile; fileRef = 3258CB9F228BEB3800C85E93 /* quant.h */; };
 		804BDE09213568F500BA3395 /* libwebp.h in Headers */ = {isa = PBXBuildFile; fileRef = 804BDE07213568F500BA3395 /* libwebp.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -298,6 +300,8 @@
 		267DBDB325CA9C690081975C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/iOSSupport/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		267DBDB525CA9C6F0081975C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		267DBDB725CA9C740081975C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		267DBDDE25CAB71E0081975C /* YYAnimatedImageView+OLELayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYAnimatedImageView+OLELayer.h"; sourceTree = "<group>"; };
+		267DBDDF25CAB71E0081975C /* YYAnimatedImageView+OLELayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYAnimatedImageView+OLELayer.m"; sourceTree = "<group>"; };
 		3258CB9D228BEAFE00C85E93 /* cost_neon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cost_neon.c; sourceTree = "<group>"; };
 		3258CB9F228BEB3800C85E93 /* quant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quant.h; sourceTree = "<group>"; };
 		804BDE04213568F500BA3395 /* libwebp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libwebp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -513,6 +517,8 @@
 				267DBD5F25CA96170081975C /* YYWebImageOperation.h */,
 				267DBD4525CA96170081975C /* YYWebImageOperation.m */,
 				267DBD3025CA95F40081975C /* YYWebImage.h */,
+				267DBDDE25CAB71E0081975C /* YYAnimatedImageView+OLELayer.h */,
+				267DBDDF25CAB71E0081975C /* YYAnimatedImageView+OLELayer.m */,
 				267DBD3125CA95F40081975C /* Info.plist */,
 			);
 			path = YYWebImage;
@@ -880,6 +886,7 @@
 				267DBD6F25CA96170081975C /* YYMemoryCache.h in Headers */,
 				267DBD6125CA96170081975C /* YYImage.h in Headers */,
 				267DBD7B25CA96170081975C /* _YYWebImageSetter.h in Headers */,
+				267DBDE025CAB71E0081975C /* YYAnimatedImageView+OLELayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,6 +1071,7 @@
 				267DBD7C25CA96170081975C /* UIButton+YYWebImage.m in Sources */,
 				267DBD7225CA96170081975C /* YYKVStorage.m in Sources */,
 				267DBD6825CA96170081975C /* YYFrameImage.m in Sources */,
+				267DBDE125CAB71E0081975C /* YYAnimatedImageView+OLELayer.m in Sources */,
 				267DBD7525CA96170081975C /* _YYWebImageSetter.m in Sources */,
 				267DBD7F25CA96170081975C /* UIImage+YYWebImage.m in Sources */,
 				267DBD8225CA96170081975C /* YYWebImageManager.m in Sources */,

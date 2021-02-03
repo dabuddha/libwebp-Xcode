@@ -3,10 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267DBD3225CA95F40081975C /* YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3025CA95F40081975C /* YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD6025CA96170081975C /* YYImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3925CA96170081975C /* YYImageCache.h */; };
+		267DBD6125CA96170081975C /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3B25CA96170081975C /* YYImage.h */; };
+		267DBD6225CA96170081975C /* YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3C25CA96170081975C /* YYImageCoder.h */; };
+		267DBD6325CA96170081975C /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3D25CA96170081975C /* YYFrameImage.h */; };
+		267DBD6425CA96170081975C /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD3E25CA96170081975C /* YYSpriteSheetImage.m */; };
+		267DBD6525CA96170081975C /* YYAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3F25CA96170081975C /* YYAnimatedImageView.h */; };
+		267DBD6625CA96170081975C /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4025CA96170081975C /* YYImage.m */; };
+		267DBD6725CA96170081975C /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4125CA96170081975C /* YYImageCoder.m */; };
+		267DBD6825CA96170081975C /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4225CA96170081975C /* YYFrameImage.m */; };
+		267DBD6925CA96170081975C /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4325CA96170081975C /* YYAnimatedImageView.m */; };
+		267DBD6A25CA96170081975C /* YYSpriteSheetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4425CA96170081975C /* YYSpriteSheetImage.h */; };
+		267DBD6B25CA96170081975C /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4525CA96170081975C /* YYWebImageOperation.m */; };
+		267DBD6C25CA96170081975C /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4725CA96170081975C /* YYDiskCache.m */; };
+		267DBD6D25CA96170081975C /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4825CA96170081975C /* YYKVStorage.h */; };
+		267DBD6E25CA96170081975C /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4925CA96170081975C /* YYCache.m */; };
+		267DBD6F25CA96170081975C /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4A25CA96170081975C /* YYMemoryCache.h */; };
+		267DBD7025CA96170081975C /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4B25CA96170081975C /* YYDiskCache.h */; };
+		267DBD7125CA96170081975C /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4C25CA96170081975C /* YYCache.h */; };
+		267DBD7225CA96170081975C /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4D25CA96170081975C /* YYKVStorage.m */; };
+		267DBD7325CA96170081975C /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4E25CA96170081975C /* YYMemoryCache.m */; };
+		267DBD7425CA96170081975C /* YYWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4F25CA96170081975C /* YYWebImageManager.h */; };
+		267DBD7525CA96170081975C /* _YYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5125CA96170081975C /* _YYWebImageSetter.m */; };
+		267DBD7625CA96170081975C /* UIButton+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5225CA96170081975C /* UIButton+YYWebImage.h */; };
+		267DBD7725CA96170081975C /* UIImageView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5325CA96170081975C /* UIImageView+YYWebImage.h */; };
+		267DBD7825CA96170081975C /* CALayer+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5425CA96170081975C /* CALayer+YYWebImage.h */; };
+		267DBD7925CA96170081975C /* UIImage+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5525CA96170081975C /* UIImage+YYWebImage.h */; };
+		267DBD7A25CA96170081975C /* MKAnnotationView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5625CA96170081975C /* MKAnnotationView+YYWebImage.h */; };
+		267DBD7B25CA96170081975C /* _YYWebImageSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5725CA96170081975C /* _YYWebImageSetter.h */; };
+		267DBD7C25CA96170081975C /* UIButton+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5825CA96170081975C /* UIButton+YYWebImage.m */; };
+		267DBD7D25CA96170081975C /* UIImageView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5925CA96170081975C /* UIImageView+YYWebImage.m */; };
+		267DBD7E25CA96170081975C /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5A25CA96170081975C /* MKAnnotationView+YYWebImage.m */; };
+		267DBD7F25CA96170081975C /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5B25CA96170081975C /* UIImage+YYWebImage.m */; };
+		267DBD8025CA96170081975C /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5C25CA96170081975C /* CALayer+YYWebImage.m */; };
+		267DBD8125CA96170081975C /* YYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5D25CA96170081975C /* YYImageCache.m */; };
+		267DBD8225CA96170081975C /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5E25CA96170081975C /* YYWebImageManager.m */; };
+		267DBD8325CA96170081975C /* YYWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5F25CA96170081975C /* YYWebImageOperation.h */; };
+		267DBD8725CA96290081975C /* libwebp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804BDE04213568F500BA3395 /* libwebp.framework */; platformFilter = ios; };
+		267DBD8825CA96290081975C /* libwebp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 804BDE04213568F500BA3395 /* libwebp.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3258CB9E228BEAFE00C85E93 /* cost_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3258CB9D228BEAFE00C85E93 /* cost_neon.c */; };
 		3258CBA0228BEB3800C85E93 /* quant.h in Headers */ = {isa = PBXBuildFile; fileRef = 3258CB9F228BEB3800C85E93 /* quant.h */; };
 		804BDE09213568F500BA3395 /* libwebp.h in Headers */ = {isa = PBXBuildFile; fileRef = 804BDE07213568F500BA3395 /* libwebp.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -171,6 +210,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		267DBD8925CA96290081975C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 804BDDFB213568F500BA3395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 804BDE03213568F500BA3395;
+			remoteInfo = libwebp;
+		};
 		80C1D53121357112007974F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 804BDDFB213568F500BA3395 /* Project object */;
@@ -180,7 +226,60 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		267DBD8B25CA96290081975C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				267DBD8825CA96290081975C /* libwebp.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		267DBD2E25CA95F40081975C /* YYWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		267DBD3025CA95F40081975C /* YYWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWebImage.h; sourceTree = "<group>"; };
+		267DBD3125CA95F40081975C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267DBD3925CA96170081975C /* YYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCache.h; sourceTree = "<group>"; };
+		267DBD3B25CA96170081975C /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		267DBD3C25CA96170081975C /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		267DBD3D25CA96170081975C /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		267DBD3E25CA96170081975C /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		267DBD3F25CA96170081975C /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		267DBD4025CA96170081975C /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		267DBD4125CA96170081975C /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		267DBD4225CA96170081975C /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		267DBD4325CA96170081975C /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		267DBD4425CA96170081975C /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		267DBD4525CA96170081975C /* YYWebImageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageOperation.m; sourceTree = "<group>"; };
+		267DBD4725CA96170081975C /* YYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
+		267DBD4825CA96170081975C /* YYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
+		267DBD4925CA96170081975C /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
+		267DBD4A25CA96170081975C /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
+		267DBD4B25CA96170081975C /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
+		267DBD4C25CA96170081975C /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
+		267DBD4D25CA96170081975C /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
+		267DBD4E25CA96170081975C /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
+		267DBD4F25CA96170081975C /* YYWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageManager.h; sourceTree = "<group>"; };
+		267DBD5125CA96170081975C /* _YYWebImageSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _YYWebImageSetter.m; sourceTree = "<group>"; };
+		267DBD5225CA96170081975C /* UIButton+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+YYWebImage.h"; sourceTree = "<group>"; };
+		267DBD5325CA96170081975C /* UIImageView+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YYWebImage.h"; sourceTree = "<group>"; };
+		267DBD5425CA96170081975C /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YYWebImage.h"; sourceTree = "<group>"; };
+		267DBD5525CA96170081975C /* UIImage+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YYWebImage.h"; sourceTree = "<group>"; };
+		267DBD5625CA96170081975C /* MKAnnotationView+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+YYWebImage.h"; sourceTree = "<group>"; };
+		267DBD5725CA96170081975C /* _YYWebImageSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _YYWebImageSetter.h; sourceTree = "<group>"; };
+		267DBD5825CA96170081975C /* UIButton+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YYWebImage.m"; sourceTree = "<group>"; };
+		267DBD5925CA96170081975C /* UIImageView+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YYWebImage.m"; sourceTree = "<group>"; };
+		267DBD5A25CA96170081975C /* MKAnnotationView+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+YYWebImage.m"; sourceTree = "<group>"; };
+		267DBD5B25CA96170081975C /* UIImage+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YYWebImage.m"; sourceTree = "<group>"; };
+		267DBD5C25CA96170081975C /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YYWebImage.m"; sourceTree = "<group>"; };
+		267DBD5D25CA96170081975C /* YYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCache.m; sourceTree = "<group>"; };
+		267DBD5E25CA96170081975C /* YYWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWebImageManager.m; sourceTree = "<group>"; };
+		267DBD5F25CA96170081975C /* YYWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebImageOperation.h; sourceTree = "<group>"; };
 		3258CB9D228BEAFE00C85E93 /* cost_neon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cost_neon.c; sourceTree = "<group>"; };
 		3258CB9F228BEB3800C85E93 /* quant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quant.h; sourceTree = "<group>"; };
 		804BDE04213568F500BA3395 /* libwebp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libwebp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -348,6 +447,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		267DBD2B25CA95F40081975C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267DBD8725CA96290081975C /* libwebp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		804BDE00213568F500BA3395 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,6 +473,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		267DBD2F25CA95F40081975C /* YYWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				267DBD4625CA96170081975C /* Cache */,
+				267DBD5025CA96170081975C /* Categories */,
+				267DBD3A25CA96170081975C /* Image */,
+				267DBD3925CA96170081975C /* YYImageCache.h */,
+				267DBD5D25CA96170081975C /* YYImageCache.m */,
+				267DBD4F25CA96170081975C /* YYWebImageManager.h */,
+				267DBD5E25CA96170081975C /* YYWebImageManager.m */,
+				267DBD5F25CA96170081975C /* YYWebImageOperation.h */,
+				267DBD4525CA96170081975C /* YYWebImageOperation.m */,
+				267DBD3025CA95F40081975C /* YYWebImage.h */,
+				267DBD3125CA95F40081975C /* Info.plist */,
+			);
+			path = YYWebImage;
+			sourceTree = "<group>";
+		};
+		267DBD3A25CA96170081975C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				267DBD3B25CA96170081975C /* YYImage.h */,
+				267DBD3C25CA96170081975C /* YYImageCoder.h */,
+				267DBD3D25CA96170081975C /* YYFrameImage.h */,
+				267DBD3E25CA96170081975C /* YYSpriteSheetImage.m */,
+				267DBD3F25CA96170081975C /* YYAnimatedImageView.h */,
+				267DBD4025CA96170081975C /* YYImage.m */,
+				267DBD4125CA96170081975C /* YYImageCoder.m */,
+				267DBD4225CA96170081975C /* YYFrameImage.m */,
+				267DBD4325CA96170081975C /* YYAnimatedImageView.m */,
+				267DBD4425CA96170081975C /* YYSpriteSheetImage.h */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		267DBD4625CA96170081975C /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				267DBD4725CA96170081975C /* YYDiskCache.m */,
+				267DBD4825CA96170081975C /* YYKVStorage.h */,
+				267DBD4925CA96170081975C /* YYCache.m */,
+				267DBD4A25CA96170081975C /* YYMemoryCache.h */,
+				267DBD4B25CA96170081975C /* YYDiskCache.h */,
+				267DBD4C25CA96170081975C /* YYCache.h */,
+				267DBD4D25CA96170081975C /* YYKVStorage.m */,
+				267DBD4E25CA96170081975C /* YYMemoryCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		267DBD5025CA96170081975C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				267DBD5125CA96170081975C /* _YYWebImageSetter.m */,
+				267DBD5225CA96170081975C /* UIButton+YYWebImage.h */,
+				267DBD5325CA96170081975C /* UIImageView+YYWebImage.h */,
+				267DBD5425CA96170081975C /* CALayer+YYWebImage.h */,
+				267DBD5525CA96170081975C /* UIImage+YYWebImage.h */,
+				267DBD5625CA96170081975C /* MKAnnotationView+YYWebImage.h */,
+				267DBD5725CA96170081975C /* _YYWebImageSetter.h */,
+				267DBD5825CA96170081975C /* UIButton+YYWebImage.m */,
+				267DBD5925CA96170081975C /* UIImageView+YYWebImage.m */,
+				267DBD5A25CA96170081975C /* MKAnnotationView+YYWebImage.m */,
+				267DBD5B25CA96170081975C /* UIImage+YYWebImage.m */,
+				267DBD5C25CA96170081975C /* CALayer+YYWebImage.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		804BDDFA213568F500BA3395 = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +549,7 @@
 				804BDE1021356AEB00BA3395 /* libwebp */,
 				804BDE06213568F500BA3395 /* Xcode */,
 				80C1D52B213570EC007974F5 /* libwebpExample */,
+				267DBD2F25CA95F40081975C /* YYWebImage */,
 				804BDE05213568F500BA3395 /* Products */,
 				80C1D53321357117007974F5 /* Frameworks */,
 			);
@@ -383,6 +560,7 @@
 			children = (
 				804BDE04213568F500BA3395 /* libwebp.framework */,
 				80C1D52A213570EC007974F5 /* libwebpExample */,
+				267DBD2E25CA95F40081975C /* YYWebImage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -643,6 +821,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		267DBD2925CA95F40081975C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267DBD7125CA96170081975C /* YYCache.h in Headers */,
+				267DBD6525CA96170081975C /* YYAnimatedImageView.h in Headers */,
+				267DBD7725CA96170081975C /* UIImageView+YYWebImage.h in Headers */,
+				267DBD7A25CA96170081975C /* MKAnnotationView+YYWebImage.h in Headers */,
+				267DBD3225CA95F40081975C /* YYWebImage.h in Headers */,
+				267DBD7425CA96170081975C /* YYWebImageManager.h in Headers */,
+				267DBD7B25CA96170081975C /* _YYWebImageSetter.h in Headers */,
+				267DBD7025CA96170081975C /* YYDiskCache.h in Headers */,
+				267DBD6325CA96170081975C /* YYFrameImage.h in Headers */,
+				267DBD6D25CA96170081975C /* YYKVStorage.h in Headers */,
+				267DBD6025CA96170081975C /* YYImageCache.h in Headers */,
+				267DBD7925CA96170081975C /* UIImage+YYWebImage.h in Headers */,
+				267DBD7625CA96170081975C /* UIButton+YYWebImage.h in Headers */,
+				267DBD8325CA96170081975C /* YYWebImageOperation.h in Headers */,
+				267DBD7825CA96170081975C /* CALayer+YYWebImage.h in Headers */,
+				267DBD6A25CA96170081975C /* YYSpriteSheetImage.h in Headers */,
+				267DBD6225CA96170081975C /* YYImageCoder.h in Headers */,
+				267DBD6F25CA96170081975C /* YYMemoryCache.h in Headers */,
+				267DBD6125CA96170081975C /* YYImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		804BDE01213568F500BA3395 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -698,6 +902,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		267DBD2D25CA95F40081975C /* YYWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267DBD3525CA95F40081975C /* Build configuration list for PBXNativeTarget "YYWebImage" */;
+			buildPhases = (
+				267DBD2925CA95F40081975C /* Headers */,
+				267DBD2A25CA95F40081975C /* Sources */,
+				267DBD2B25CA95F40081975C /* Frameworks */,
+				267DBD2C25CA95F40081975C /* Resources */,
+				267DBD8B25CA96290081975C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				267DBD8A25CA96290081975C /* PBXTargetDependency */,
+			);
+			name = YYWebImage;
+			productName = YYWebImage;
+			productReference = 267DBD2E25CA95F40081975C /* YYWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		804BDE03213568F500BA3395 /* libwebp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 804BDE0C213568F500BA3395 /* Build configuration list for PBXNativeTarget "libwebp" */;
@@ -742,6 +966,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = SDWebImage;
 				TargetAttributes = {
+					267DBD2D25CA95F40081975C = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					804BDE03213568F500BA3395 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -764,11 +991,19 @@
 			targets = (
 				804BDE03213568F500BA3395 /* libwebp */,
 				80C1D529213570EC007974F5 /* libwebpExample */,
+				267DBD2D25CA95F40081975C /* YYWebImage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		267DBD2C25CA95F40081975C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		804BDE02213568F500BA3395 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -779,6 +1014,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		267DBD2A25CA95F40081975C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267DBD7E25CA96170081975C /* MKAnnotationView+YYWebImage.m in Sources */,
+				267DBD7D25CA96170081975C /* UIImageView+YYWebImage.m in Sources */,
+				267DBD8125CA96170081975C /* YYImageCache.m in Sources */,
+				267DBD6725CA96170081975C /* YYImageCoder.m in Sources */,
+				267DBD6C25CA96170081975C /* YYDiskCache.m in Sources */,
+				267DBD6E25CA96170081975C /* YYCache.m in Sources */,
+				267DBD7325CA96170081975C /* YYMemoryCache.m in Sources */,
+				267DBD7C25CA96170081975C /* UIButton+YYWebImage.m in Sources */,
+				267DBD7225CA96170081975C /* YYKVStorage.m in Sources */,
+				267DBD6825CA96170081975C /* YYFrameImage.m in Sources */,
+				267DBD7525CA96170081975C /* _YYWebImageSetter.m in Sources */,
+				267DBD7F25CA96170081975C /* UIImage+YYWebImage.m in Sources */,
+				267DBD8225CA96170081975C /* YYWebImageManager.m in Sources */,
+				267DBD6425CA96170081975C /* YYSpriteSheetImage.m in Sources */,
+				267DBD6625CA96170081975C /* YYImage.m in Sources */,
+				267DBD6B25CA96170081975C /* YYWebImageOperation.m in Sources */,
+				267DBD8025CA96170081975C /* CALayer+YYWebImage.m in Sources */,
+				267DBD6925CA96170081975C /* YYAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		804BDDFF213568F500BA3395 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -911,6 +1171,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		267DBD8A25CA96290081975C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 804BDE03213568F500BA3395 /* libwebp */;
+			targetProxy = 267DBD8925CA96290081975C /* PBXContainerItemProxy */;
+		};
 		80C1D53221357112007974F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 804BDE03213568F500BA3395 /* libwebp */;
@@ -919,6 +1185,65 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		267DBD3325CA95F40081975C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4Z5S6BJZ8H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YYWebImage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minijoy.YYWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		267DBD3425CA95F40081975C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4Z5S6BJZ8H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YYWebImage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minijoy.YYWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		804BDE0A213568F500BA3395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1141,6 +1466,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		267DBD3525CA95F40081975C /* Build configuration list for PBXNativeTarget "YYWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267DBD3325CA95F40081975C /* Debug */,
+				267DBD3425CA95F40081975C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		804BDDFE213568F500BA3395 /* Build configuration list for PBXProject "libwebp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -8,33 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		267DBD3225CA95F40081975C /* YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3025CA95F40081975C /* YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		267DBD6025CA96170081975C /* YYImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3925CA96170081975C /* YYImageCache.h */; };
-		267DBD6125CA96170081975C /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3B25CA96170081975C /* YYImage.h */; };
-		267DBD6225CA96170081975C /* YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3C25CA96170081975C /* YYImageCoder.h */; };
-		267DBD6325CA96170081975C /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3D25CA96170081975C /* YYFrameImage.h */; };
+		267DBD6025CA96170081975C /* YYImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3925CA96170081975C /* YYImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD6125CA96170081975C /* YYImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3B25CA96170081975C /* YYImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD6225CA96170081975C /* YYImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3C25CA96170081975C /* YYImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD6325CA96170081975C /* YYFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3D25CA96170081975C /* YYFrameImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD6425CA96170081975C /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD3E25CA96170081975C /* YYSpriteSheetImage.m */; };
-		267DBD6525CA96170081975C /* YYAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3F25CA96170081975C /* YYAnimatedImageView.h */; };
+		267DBD6525CA96170081975C /* YYAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD3F25CA96170081975C /* YYAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD6625CA96170081975C /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4025CA96170081975C /* YYImage.m */; };
 		267DBD6725CA96170081975C /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4125CA96170081975C /* YYImageCoder.m */; };
 		267DBD6825CA96170081975C /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4225CA96170081975C /* YYFrameImage.m */; };
 		267DBD6925CA96170081975C /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4325CA96170081975C /* YYAnimatedImageView.m */; };
-		267DBD6A25CA96170081975C /* YYSpriteSheetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4425CA96170081975C /* YYSpriteSheetImage.h */; };
+		267DBD6A25CA96170081975C /* YYSpriteSheetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4425CA96170081975C /* YYSpriteSheetImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD6B25CA96170081975C /* YYWebImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4525CA96170081975C /* YYWebImageOperation.m */; };
 		267DBD6C25CA96170081975C /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4725CA96170081975C /* YYDiskCache.m */; };
-		267DBD6D25CA96170081975C /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4825CA96170081975C /* YYKVStorage.h */; };
+		267DBD6D25CA96170081975C /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4825CA96170081975C /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD6E25CA96170081975C /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4925CA96170081975C /* YYCache.m */; };
-		267DBD6F25CA96170081975C /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4A25CA96170081975C /* YYMemoryCache.h */; };
-		267DBD7025CA96170081975C /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4B25CA96170081975C /* YYDiskCache.h */; };
-		267DBD7125CA96170081975C /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4C25CA96170081975C /* YYCache.h */; };
+		267DBD6F25CA96170081975C /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4A25CA96170081975C /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD7025CA96170081975C /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4B25CA96170081975C /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD7125CA96170081975C /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4C25CA96170081975C /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD7225CA96170081975C /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4D25CA96170081975C /* YYKVStorage.m */; };
 		267DBD7325CA96170081975C /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD4E25CA96170081975C /* YYMemoryCache.m */; };
-		267DBD7425CA96170081975C /* YYWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4F25CA96170081975C /* YYWebImageManager.h */; };
+		267DBD7425CA96170081975C /* YYWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD4F25CA96170081975C /* YYWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD7525CA96170081975C /* _YYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5125CA96170081975C /* _YYWebImageSetter.m */; };
-		267DBD7625CA96170081975C /* UIButton+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5225CA96170081975C /* UIButton+YYWebImage.h */; };
-		267DBD7725CA96170081975C /* UIImageView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5325CA96170081975C /* UIImageView+YYWebImage.h */; };
-		267DBD7825CA96170081975C /* CALayer+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5425CA96170081975C /* CALayer+YYWebImage.h */; };
-		267DBD7925CA96170081975C /* UIImage+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5525CA96170081975C /* UIImage+YYWebImage.h */; };
-		267DBD7A25CA96170081975C /* MKAnnotationView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5625CA96170081975C /* MKAnnotationView+YYWebImage.h */; };
+		267DBD7625CA96170081975C /* UIButton+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5225CA96170081975C /* UIButton+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD7725CA96170081975C /* UIImageView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5325CA96170081975C /* UIImageView+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD7825CA96170081975C /* CALayer+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5425CA96170081975C /* CALayer+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD7925CA96170081975C /* UIImage+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5525CA96170081975C /* UIImage+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267DBD7A25CA96170081975C /* MKAnnotationView+YYWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5625CA96170081975C /* MKAnnotationView+YYWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD7B25CA96170081975C /* _YYWebImageSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5725CA96170081975C /* _YYWebImageSetter.h */; };
 		267DBD7C25CA96170081975C /* UIButton+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5825CA96170081975C /* UIButton+YYWebImage.m */; };
 		267DBD7D25CA96170081975C /* UIImageView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5925CA96170081975C /* UIImageView+YYWebImage.m */; };
@@ -43,7 +43,7 @@
 		267DBD8025CA96170081975C /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5C25CA96170081975C /* CALayer+YYWebImage.m */; };
 		267DBD8125CA96170081975C /* YYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5D25CA96170081975C /* YYImageCache.m */; };
 		267DBD8225CA96170081975C /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5E25CA96170081975C /* YYWebImageManager.m */; };
-		267DBD8325CA96170081975C /* YYWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5F25CA96170081975C /* YYWebImageOperation.h */; };
+		267DBD8325CA96170081975C /* YYWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5F25CA96170081975C /* YYWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD8725CA96290081975C /* libwebp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804BDE04213568F500BA3395 /* libwebp.framework */; platformFilter = ios; };
 		267DBD8825CA96290081975C /* libwebp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 804BDE04213568F500BA3395 /* libwebp.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3258CB9E228BEAFE00C85E93 /* cost_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3258CB9D228BEAFE00C85E93 /* cost_neon.c */; };
@@ -831,7 +831,6 @@
 				267DBD7A25CA96170081975C /* MKAnnotationView+YYWebImage.h in Headers */,
 				267DBD3225CA95F40081975C /* YYWebImage.h in Headers */,
 				267DBD7425CA96170081975C /* YYWebImageManager.h in Headers */,
-				267DBD7B25CA96170081975C /* _YYWebImageSetter.h in Headers */,
 				267DBD7025CA96170081975C /* YYDiskCache.h in Headers */,
 				267DBD6325CA96170081975C /* YYFrameImage.h in Headers */,
 				267DBD6D25CA96170081975C /* YYKVStorage.h in Headers */,
@@ -844,6 +843,7 @@
 				267DBD6225CA96170081975C /* YYImageCoder.h in Headers */,
 				267DBD6F25CA96170081975C /* YYMemoryCache.h in Headers */,
 				267DBD6125CA96170081975C /* YYImage.h in Headers */,
+				267DBD7B25CA96170081975C /* _YYWebImageSetter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

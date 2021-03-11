@@ -45,7 +45,6 @@
 		267DBD8225CA96170081975C /* YYWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 267DBD5E25CA96170081975C /* YYWebImageManager.m */; };
 		267DBD8325CA96170081975C /* YYWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 267DBD5F25CA96170081975C /* YYWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		267DBD8725CA96290081975C /* libwebp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804BDE04213568F500BA3395 /* libwebp.framework */; platformFilter = ios; };
-		267DBD8825CA96290081975C /* libwebp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 804BDE04213568F500BA3395 /* libwebp.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		267DBDA225CA9C3D0081975C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDA125CA9C3D0081975C /* Accelerate.framework */; };
 		267DBDA425CA9C430081975C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDA325CA9C430081975C /* AssetsLibrary.framework */; };
 		267DBDA825CA9C490081975C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267DBDA725CA9C490081975C /* CoreFoundation.framework */; };
@@ -236,20 +235,6 @@
 			remoteInfo = libwebp;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		267DBD8B25CA96290081975C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				267DBD8825CA96290081975C /* libwebp.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		267DBD2E25CA95F40081975C /* YYWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -953,7 +938,6 @@
 				267DBD2A25CA95F40081975C /* Sources */,
 				267DBD2B25CA95F40081975C /* Frameworks */,
 				267DBD2C25CA95F40081975C /* Resources */,
-				267DBD8B25CA96290081975C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
